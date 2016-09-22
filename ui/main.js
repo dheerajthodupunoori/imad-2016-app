@@ -5,6 +5,11 @@ element.innerHTML='DHEERAJ';
 
 //move the image
 var image = document.getElementById('img');
-image.onClick = function(){
-    image.style.marginLeft='100px';
+var marginLeft=0;
+function moveRight(){
+    marginLeft=marginLeft+10;
+    image.style.marginLeft=marginLeft+'px';
 }
+image.onClick = function(){
+    var interval=setInterval(moveRight,100);
+};
