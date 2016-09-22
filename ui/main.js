@@ -6,5 +6,5 @@ element.innerHTML='DHEERAJ';
 //move the image
 var image = document.getElementById('img');
 image.onClick = function(){
-    img.style.marginLeft='100px';
+    image.style.marginLeft='100px';
 }
