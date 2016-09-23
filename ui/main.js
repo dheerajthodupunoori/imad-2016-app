@@ -1,5 +1,5 @@
 //var counter = 0;
-var button = document.getElementById('counter');
+var ClickMe = document.getElementById('counter');
 button.onClick = function(){
     //create a request to the counter enddpoint
     var request = new XMLHttpRequest();
