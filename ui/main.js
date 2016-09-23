@@ -13,3 +13,18 @@ function moveRight(){
 image.onClick = function(){
     var interval = setInterval(moveRight,100);
 };
+
+
+var counter = 0;
+var button = document.getElementById('counter');
+button.onClick = function(){
+    //
+    
+    
+    
+    
+   //render the variable in the correct span 
+    counter = counter+1;
+    var span  = document.getElementById('count');
+    span.innerHTML = counter.toString();
+}
