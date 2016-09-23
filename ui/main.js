@@ -1,4 +1,4 @@
-console.log('loaded!');
+/*console.log('loaded!');
 //change the text of the main-text in div
 var element=document.getElementById('main-text');
 element.innerHTML='DHEERAJ';
@@ -12,7 +12,7 @@ function moveRight(){
 }
 image.onClick = function(){
     var interval = setInterval(moveRight,100);
-};
+};*/
 
 
 var counter = 0;
